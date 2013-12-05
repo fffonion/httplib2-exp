@@ -14,17 +14,17 @@ try:
 except:
 	raw_input('Error: httplib2 not found.\nTry \'pip install httplib2\' to install, or copy httplib2.pyc to your PYTHON_PATH folder.')
 	os._exit(1)
-__version__=1.2
-id,pswd,save_pswd='','',False
+__version__=1.3
+uid,pswd,save_pswd='','',False
 session_file='.HUST-WIRELESS.session'
 id_file='.HUST-WIRELESS.id'
-url='http://www.baidu.com/'
-loginstr='/eportal/userV2.do?method=login'
-logoutstr='/eportal/userV2.do?method=logout'
+testurl='http://www.baidu.com/'
+login_uri='/eportal/userV2.do?method=login'
+logout_uri='/eportal/userV2.do?method=logout'
 header={'Content-Type':'application/x-www-form-urlencoded'}
 #handle sys.argv
 if os.path.exists(id_file):
-	id,pswd=base64.decodestring(open(id_file).read()).split(',')
+	uid,pswd=base64.decodestring(open(id_file).read()).split(',')
 	if pswd!='':
 		save_pswd=True
 if len(sys.argv)>1:
@@ -35,9 +35,9 @@ if len(sys.argv)>1:
 	if len(sys.argv)>2 and not sys.argv[2].startswith('-'):
 		pswd= sys.argv[2]
 	if not sys.argv[1].startswith('-'):#judge if is extra args
-		if id!=sys.argv[1]:#new username?
+		if uid!=sys.argv[1]:#new username?
 			pswd=''#clean saved
-			id=sys.argv[1]
+			uid=sys.argv[1]
 	if sys.argv[-1].startswith('-'):
 		if 's' in sys.argv[-1]:#save
 			save_pswd=True
@@ -61,32 +61,33 @@ if url==[]:
 	else:
 		host_url,args=open(session_file,'r').read().split(',')
 		#logout
-		resp,ct=ht.request('%s%s&%s'%(host_url,logoutstr,args),method='GET')
+		resp,ct=ht.request('%s%s&%s'%(host_url,logout_uri,args),method='GET')
 		if re.findall('window\.location\.replace\("\.\/userV2\.do\?method=goToLogout"\);',ct)!=[]:
 			print('Logout succeed!')
-		#session no longer avaliable
-		if os.path.exists(session_file):
-			os.remove(session_file)
+			#session no longer avaliable
+			if os.path.exists(session_file):
+				os.remove(session_file)
 else:
 	#login process
 	url=url[0]
 	#split ip and path
-	post_url,args=url.split('?')
+	post_url,query_args=url.split('?')
 	host_url=post_url.replace('/eportal/index.jsp','')#ip address
-	#write session args to file for logout
-	open(session_file,'w').write(','.join([host_url,args]))
 	#prompt for input
-	id=id or raw_input('username >')
-	pswd=pswd or getpass.getpass('password for %s >'%id)
+	uid=uid or raw_input('username >')
+	pswd=pswd or getpass.getpass('password for %s >'%uid)
 	#save pswd and id
-	open(id_file,'w').write(base64.encodestring(','.join([id,save_pswd and pswd or ''])))
+	open(id_file,'w').write(base64.encodestring(','.join([uid,save_pswd and pswd or ''])))
 	#POST args without url, we don't need that
-	args='%s&username=%s&pwd=%s&validcode=no_check'%(args[:(args.find('url')-1)],id,pswd)
+	formdata='username=%s&pwd=%s&validcode=no_check&phone=&authorizationCode=&regist_validcode=&phonenum=&regist_validcode_sm='%(uid,pswd)
 	#do the POST
-	resp,ct=ht.request('%s%s'%(host_url,loginstr),method='POST',headers=header,body=args)
+	resp,ct=ht.request('%s%s&aram=true&fromHtml=true&userAgentForLogin=0&%s'%(host_url,login_uri,query_args),method='POST',headers=header,body=formdata)
 	#test if successful
-	if re.findall('window.location.replace\("\.\/userV2\.do\?method=goToAuthResult',ct)!=[]:
+	cryptarg=re.findall('window.location.replace\("\.\/userV2\.do\?method=goToAuthResult&(\mac\=.+\&wlanuserip\=.+&nasip=.+)\&t',ct)
+	if cryptarg!=[]:
 		print('Login succeed!')
+		#write session args to file for logout
+		open(session_file,'w').write(','.join([host_url,cryptarg[0]]))
 	else:
 		errmsg=re.findall('errorMessage.innerHTML = \'<strong>(.+)</strong>',ct)[0]
 		print('Login failed: %s'%errmsg)
