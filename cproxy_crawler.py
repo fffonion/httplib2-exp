@@ -37,8 +37,9 @@ while(True):
 	#print ct
 	section=re.findall('\[gae\](.*?)\[',ct,re.DOTALL)[0]
 	#found=re.findall('fetchserver.*?=.*?(.+)',section)[0].strip(' ').split('|')
-	found=re.findall('appid.*?=.*?(.+)',section)[0].strip(' ').split('|')
-	pswd=re.findall('password.*?=.*?(.+)',section)[0].strip(' ')
+	found=re.findall('appid.*?=.*?(.+)',section)[0].strip(' ').strip('\r').split('|')
+	#print re.findall('(path.*?=.*?.+)',section)[0].strip(' ')
+	pswd=re.findall('password.*?=.*?(.+)',section)[0].strip(' ').rstrip('\r')
 	if pswd!='19920122':
 		print pswd
 	for j in found:
