@@ -1,5 +1,5 @@
 # coding:utf-8
-import httplib2plus as httplib2
+import httplib2
 import urllib
 import os, os.path as opth
 import sys
@@ -136,9 +136,12 @@ class ktxp(sites):
         pattern = '<td title="(.*?)">.*?</td>\r\n.*?<td><a href=".*?">(.*?)</a></td>.*?<td class="ltext ttitle"><a href="(.*?)" class="quick-down cmbg"></a><a href="(.*?)" target="_blank">(.*?)</a>.*?</td>\r\n.*?<td>(.*?)</td>\r\n.*?<td class="bts-\d">(.*?)</td>\r\n.*?<td class="btl-\d">(.*?)</td>\r\n.*?<td class="btc-\d">(.*?)</td>\r\n.*?<td><a href="(.*?)".*?>(.*?)</a></td>'
         nextpattren='pages clear space-top.+</a><a href="(.*?)" class="nextprev" target="_self">'
         content = self._download(pageurl)
-        list = re.findall('tbody(.+/)tbody', content, re.DOTALL)[0].replace('<span class="keyword">', '')\
-        .replace('</span>', '').split('</tr>')[:-1]
-        for i in list:
+        open(r'z:/1.htm','w').write(content)
+        lpos=content.find('<tbody>')
+        hpos=content.find('</tbody>',lpos)
+        tlist = content[lpos:hpos]
+        tlist=tlist.replace('<span class="keyword">', '').replace('</span>', '').split('</tr>')[:-1]
+        for i in tlist:
             self.torrents.append(torrent())
             self.torrents[-1].time, self.torrents[-1].cat, self.torrents[-1].url, \
             self.torrents[-1].descrurl, self.torrents[-1].name, self.torrents[-1].length, \
@@ -163,9 +166,9 @@ class popgo(sites):
         pattern = '<td title="(.*?)">.*?</td>\r\n.*?<td><a href=".*?">(.*?)</a></td>.*?<td class="ltext ttitle"><a href="(.*?)" class="quick-down cmbg"></a><a href="(.*?)" target="_blank">(.*?)</a>.*?</td>\r\n.*?<td>(.*?)</td>\r\n.*?<td class="bts-\d">(.*?)</td>\r\n.*?<td class="btl-\d">(.*?)</td>\r\n.*?<td class="btc-\d">(.*?)</td>\r\n.*?<td><a href="(.*?)".*?>(.*?)</a></td>'
         nextpattren='pages clear space-top.+</a><a href="(.*?)" class="nextprev" target="_self">'
         content = self._download(pageurl)
-        list = re.findall('tbody(.+/)tbody', content, re.DOTALL)[0].replace('<span class="keyword">', '')\
+        tlist = re.findall('tbody(.+/)tbody', content, re.DOTALL)[0].replace('<span class="keyword">', '')\
         .replace('</span>', '').split('</tr>')[:-1]
-        for i in list:
+        for i in tlist:
             self.torrents.append(torrent())
             self.torrents[-1].time, self.torrents[-1].cat, self.torrents[-1].url, \
             self.torrents[-1].descrurl, self.torrents[-1].name, self.torrents[-1].length, \
@@ -179,7 +182,8 @@ class popgo(sites):
     
 if __name__ == '__main__':
     kt = ktxp(silent=False)
-    kt.search('あべ美幸騎士團',ready=True)
+    #kt.search('あべ美幸騎士團',ready=True)
+    kt.search('11番',ready=True)
     #kt.seturl('http://bt.ktxp.com/sort-12-1.html',ready=True)
     #kt.get_torrents()
     kt.download_torrents(dir = 'torrents', name = kt.REAL_NAME)
