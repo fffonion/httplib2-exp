@@ -115,13 +115,17 @@ class sites(object):
         if not opth.exists(dir):
             os.mkdir(dir)
         for tr in self.torrents:
-            if not silent: self._print ('Downloading %s' % tr.name)
+            if opth.exists(opth.join(dir, self._legalpath(getname(tr, name)))):
+                self._print ('Skip %s' % tr.name)
+                continue
+            if not silent:
+                self._print ('Downloading %s' % tr.name)
             content = self._download(tr.url)
             open(opth.join(dir, self._legalpath(getname(tr, name))), 'wb')\
             .write(content)
 
     def _get_page_torrents(self, pageurl):
-        pass
+        raise NotImplementedError("You must override this method.")
 
 class ktxp(sites):
 
