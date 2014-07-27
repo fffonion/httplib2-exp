@@ -19,7 +19,7 @@ q=Queue.Queue()
 baseurl="http://www.17ttt.com/"
 GET=lambda url:ht.request(baseurl+url,headers=he)
 ct=GET(metaurl)[1]
-thread_cnt=3
+thread_cnt=5
 chapters=re.findall("Musiclist/\d+\.html",ct)
 title=re.findall("id=\"title\".+<p><b>(.*?)</b></p",ct,re.DOTALL)[0]
 has=[]
@@ -53,13 +53,20 @@ class the_thread(threading.Thread):
             ct=self.GET(url)[1]
             valid=re.findall("src=\"/(getrdkey.asp\?file=.+)\"",ct)[0]
             album=re.findall('href="/Musiclist/\d+\.Html" target="_blank">(.*?)</A>',ct)[0].replace(fixed_pref,'')
-            ct=self.GET(valid)[1]
-            try:
-                mp3=re.findall("'(.+)'",ct)[0]
-            except IndexError:
+            trytime=3
+            while trytime>0:
+                ct=self.GET(valid.replace(' ','%20'))[1]
+                mp3=re.findall("'(.+)'",ct)
+                if mp3!=[]:
+                    break
+                trytime-=1
+                print('Thread-%d : Retry')
+            if mp3==[]:
                 errors.append(url)
                 print('Thread-%d : Error parsing-%s'%(self.tid,url))
                 continue
+            else:
+                mp3=mp3[0]
             fname=re.findall("([^/]+.mp3)\?",mp3)[0]
             mp3=urllib.quote(mp3).replace('%3A',':').replace('%3F','?').replace('%3D','=')
             if album.split(" ")[0] not in fname:
@@ -70,13 +77,18 @@ class the_thread(threading.Thread):
                 continue
             print('Thread-%d : Start-%s'%(self.tid,fname))
             t=time.time()
-            os.system('wget %s -O %s -q'%(mp3,fname))
-            if(os.path.getsize(fname)==0):
-                print('Thread-%d : Sad-%s'%(self.tid,fname))
+            # os.system('wget \"%s\" -O \"%s\" -q'%(mp3,fname))
+            # if os.path.getsize(fname)==0:
+            a,b=self.ht.request(mp3,headers=he)
+            if(len(b)<1000):
                 q.put(url)
-            else:
-                os.system('move %s %s\%s >nul'%(fname,targdir,fname))
-                print('Thread-%d : Done-%s(%ds)'%(self.tid,fname,time.time()-t))
+                print('Thread-%d : Error-%s got %d'%(self.tid,fname,len(b)))
+                time.sleep(1)
+                continue
+            open(r"%s\%s"%(targdir,fname),'wb').write(b)
+            # else:
+            #     os.system('move \"%s\" \"%s\%s\" >nul'%(fname,targdir,fname))
+            print('Thread-%d : Done-%s(%ds)'%(self.tid,fname,time.time()-t))
         print('Thread-%d : Exit'%self.tid)
 ps=[]
 for i in range(thread_cnt):

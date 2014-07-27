@@ -114,10 +114,6 @@ Access 2010 (x86) - (English)
 ed2k://|file|en_access_2010_x86_514967.exe|284655576|5E939399C33C725E1936EA10E6B51158|/
 Access 2010 (x86 and x64) - DVD (Chinese-Simplified)
 ed2k://|file|cn_access_2010_x86_x64_dvd_515000.iso|1001994240|85015D4CA7AE0AD978BD155EF906A4F0|/
-Microsoft Office Accounting 2009 Service Pack 1 (x86) - (English-United States)
-ed2k://|file|en_office_accounting_2009_sp1_x86_323156.exe|62171032|9E9334E891594123C2FE866D862C7FBC|/
-Office Accounting Professional 2009 (x86) - (English-United States)
-ed2k://|file|en-us_office_accounting_professional_2009_x86_110458.exe|169265744|575E22BD6E71A0C5329B9853D87F74E8|/
 Business Contact Manager for Outlook 2010 (x64) - (English)
 ed2k://|file|en_business_contact_manager_for_outlook_2010_x64_508767.exe|386263368|5B1376B5123DFB82682F88390F031D99|/
 Business Contact Manager for Outlook 2010 (x86) - (English)
@@ -366,12 +362,20 @@ Office Professional Plus 2010 (x64) - (Hebrew)
 ed2k://|file|he_office_professional_plus_2010_x64_515505.exe|752051712|8A1664C2B501C9C141049E044D9DACF6|/
 Office Professional Plus 2010 (x86) - (Hebrew)
 ed2k://|file|he_office_professional_plus_2010_x86_515503.exe|679472888|F7A51FD537695106DB12FCA5D55D4451|/
+Office 2013 Single Language Pack with SP1 (x86 and x64) - DVD (English)
+ed2k://|file|en_office_2013_single_language_pack_with_sp1_x86_and_x64_dvd_3857950.iso|637540352|372E22FF43B519496A886D5515BA2EEB|/
 Office Professional Plus 2013 (x64) - DVD (English)
 ed2k://|file|en_office_professional_plus_2013_x64_dvd_1123674.iso|806676480|D85136BE7371B4EB5ACFAD14E372541A|/
 Office Professional Plus 2013 (x86 and x64) - DVD (English)
 ed2k://|file|en_office_professional_plus_2013_x86_x64_dvd_1135709.iso|1505925120|1A53FB0173985AA2E6D09FC773AA6627|/
 Office Professional Plus 2013 (x86) - DVD (English)
 ed2k://|file|en_office_professional_plus_2013_x86_dvd_1123673.iso|699004928|BB00273C2DA5FF775165D748DBFDA37C|/
+Office Professional Plus 2013 with SP1 (x64) - DVD (English)
+ed2k://|file|en_office_professional_plus_2013_with_sp1_x64_dvd_3928183.iso|873791488|7D8269576F7A714EA54D16E5F3913F29|/
+Office Professional Plus 2013 with SP1 (x86 and x64) - DVD (English)
+ed2k://|file|en_office_professional_plus_2013_with_sp1_x86_and_x64_dvd_3928186.iso|1626122240|C3D0C9D64D276BC2714260C3D580844B|/
+Office Professional Plus 2013 with SP1 (x86) - DVD (English)
+ed2k://|file|en_office_professional_plus_2013_with_sp1_x86_dvd_3928181.iso|752084992|C6BBEE196211E9031AF539DA626222A7|/
 Office Professional Plus 2013 (x64) - DVD (Chinese-Simplified)
 ed2k://|file|cn_office_professional_plus_2013_x64_dvd_1134006.iso|914106368|E5FBAE9EE9CB35D5E777EA78F7F50410|/
 Office Professional Plus 2013 (x86 and x64) - DVD (Chinese-Simplified)
@@ -382,6 +386,12 @@ Office Professional Plus 2013 VOL (x64) - (Chinese-Simplified)
 ed2k://|file|SW_DVD5_Office_Professional_Plus_2013_64Bit_ChnSimp_MLF_X18-55285.ISO|958879744|678EF5DD83F825E97FB710996E0BA597|/
 Office Professional Plus 2013 VOL (x86) - (Chinese-Simplified)
 ed2k://|file|SW_DVD5_Office_Professional_Plus_2013_W32_ChnSimp_MLF_X18-55126.ISO|850122752|72F01530B3A9C320E166A1A412F1D869|/
+Office Professional Plus 2013 with SP1 (x64) - DVD (Chinese-Simplified)
+ed2k://|file|cn_office_professional_plus_2013_with_sp1_x64_dvd_3921920.iso|980258816|E18C9CF896D65B2778AA1A44C922C377|/
+Office Professional Plus 2013 with SP1 (x86 and x64) - DVD (Chinese-Simplified)
+ed2k://|file|cn_office_professional_plus_2013_with_sp1_x86_and_x64_dvd_3921921.iso|1838749696|C2C7DCB43293252480A32F91F21DE3B3|/
+Office Professional Plus 2013 with SP1 (x86) - DVD (Chinese-Simplified)
+ed2k://|file|cn_office_professional_plus_2013_with_sp1_x86_dvd_3921919.iso|858245120|EA50FF2DE78488DF2646D66FA791164A|/
 Office Professional Plus 2013 (x64) - DVD (Chinese-Traditional)
 ed2k://|file|ct_office_professional_plus_2013_x64_dvd_1134004.iso|830060544|D9E593F33DF3BB4DC303B4BCD87913D0|/
 Office Professional Plus 2013 (x86 and x64) - DVD (Chinese-Traditional)
@@ -392,6 +402,10 @@ Office 95 Professional - CD1 (English)
 ed2k://|file|en_office_95_pro_cd1.exe|258955762|C5D8D788298F5C2A707B4F7409568B5B|/
 Office 95 Professional - CD2 (English)
 ed2k://|file|en_office_95_pro_cd2.exe|452148606|C7DDB23E54C4055C418EB32BE2D3575C|/
+Microsoft Office Accounting 2009 Service Pack 1 (x86) - (English-United States)
+ed2k://|file|en_office_accounting_2009_sp1_x86_323156.exe|62171032|9E9334E891594123C2FE866D862C7FBC|/
+Office Accounting Professional 2009 (x86) - (English-United States)
+ed2k://|file|en-us_office_accounting_professional_2009_x86_110458.exe|169265744|575E22BD6E71A0C5329B9853D87F74E8|/
 Office Communicator 2005 Multilingual User Interface (MUI) Package
 ed2k://|file|MUI_Office_Communicator.msi|3373056|B9FD76D72E85A98139E4C980F9265328|/
 Office Communicator 2007 (x86) - CD (Chinese-Simplified)
@@ -485,6 +499,12 @@ Project Professional 2013 (x86 and x64) - DVD (Chinese-Simplified)
 ed2k://|file|cn_project_professional_2013_x86_x64_dvd_1164724.iso|907327488|CEE17B532F32EF4A05665B57831E86D9|/
 Project Professional 2013 (x86) - (Chinese-Simplified)
 ed2k://|file|cn_project_professional_2013_x86_1138490.exe|395839856|44744F1B2827B853878BF5751F020637|/
+Project Professional 2013 with SP1 (x64) - (Chinese-Simplified)
+ed2k://|file|cn_project_professional_2013_with_sp1_x64_3911366.exe|512574264|A8E9B74D55EBE942701D493A4200C7E9|/
+Project Professional 2013 with SP1 (x86 and x64) - DVD (Chinese-Simplified)
+ed2k://|file|cn_project_professional_2013_with_sp1_x86_and_x64_dvd_3911523.iso|1001801728|7106C35EB6B7EF6AA26DB23560B21393|/
+Project Professional 2013 with SP1 (x86) - (Chinese-Simplified)
+ed2k://|file|cn_project_professional_2013_with_sp1_x86_3911365.exe|434565240|70767974258CE8F3E5D30C1E43A3710C|/
 Office Project Portfolio Server 2007 (English)
 ed2k://|file|en_office_project_portfolio_server_2007_x12-79226.iso|26261504|D1F7D97ADB998B7AFB6C16A5E63E9260|/
 Project Portfolio Server 2007 Service Pack 2 (x86) - (English)
@@ -511,6 +531,10 @@ SharePoint Designer 2013 (x64) - (English)
 ed2k://|file|en_sharepoint_designer_2013_x64_1134649.exe|339799344|A79BACB1B348766DBE5BB412AACF6AD7|/
 SharePoint Designer 2013 (x86) - (English)
 ed2k://|file|en_sharepoint_designer_2013_x86_1134647.exe|295923120|1114DC4DAB24A458D043742B04FA8919|/
+SharePoint Designer 2013 with SP1 (x64) - (English)
+ed2k://|file|en_sharepoint_designer_2013_with_sp1_x64_3948135.exe|391254888|1E306A4405FFD2BEEB6A4F61A3B28600|/
+SharePoint Designer 2013 with SP1 (x86) - (English)
+ed2k://|file|en_sharepoint_designer_2013_with_sp1_x86_3948134.exe|334692912|062E32C64255F7448570D8B167D8EF7D|/
 SharePoint Designer 2013 (x64) - (Chinese-Simplified)
 ed2k://|file|cn_sharepoint_designer_2013_x64_1176104.exe|448627640|D46E3B59A3A0DB77F42113ED1D96E19C|/
 SharePoint Designer 2013 (x86) - (Chinese-Simplified)
@@ -656,6 +680,12 @@ Visual C++ 4.2 Enterprise Edition (English) Disc 1
 ed2k://|file|en_vc42ent_disc1.exe|202798728|D46F0810192EA1926AA5EC942F326A41|/
 Visual C++ 4.2 Enterprise Edition (English) Disc 2
 ed2k://|file|en_vc42ent_disc2.exe|28805808|E51366BA6BEEFB294E68865F7BBCFF1E|/
+Visual FoxPro 9.0 Service Pack 1 (English)
+ed2k://|file|en_visual_foxpro_9.0_sp1.exe|33332744|61BA597D5BB9F99C7B6A6CEF70171650|/
+Visual FoxPro 9.0 Service Pack 2 (x86) - (English)
+ed2k://|file|en_visual_foxpro_9.0_service_pack_2_x86.exe|36476744|31F06EEF0B1B88363C8C36AEE42B2AD2|/
+Visual FoxPro Professional 9.0 (English)
+ed2k://|file|en_visual_foxpro_9.0.iso|310644736|4C521F4B9DB5F2721038E2E25A8C8B14|/
 Visual J# .NET (English)
 ed2k://|file|visual_j#.net_en.exe|18875392|626BA67674E6CCD5A449A6FE5C337A85|/
 Visual J# .NET Redistributable (English)
@@ -664,6 +694,11 @@ Visual SourceSafe 2005 (English)
 ed2k://|file|en_vss_2005.iso|108048384|C4BEC1EC3B2119BD7CCD51E930AAD4C3|/
 Visual SourceSafe 6.0d (English)
 ed2k://|file|en_vss_60d.iso|16644096|2B12711DC9798AA96D494B4EABE1EDA6|/
+Visual Studio "14" Professional CTP 2 (Version 14.0.21901.01.DP) (x86) - DVD (English)
+
+ed2k://|file|en_visual_studio_14_professional_ctp_2_version_14.0.21901.01.dp_x86_dvd_4563823.iso|4284657664|9E4447FEE699EE8151A367DBA3B46B82|/
+Visual Studio “14” Professional CTP Version 14.0.21730.01.DP (x86) - DVD (English)
+ed2k://|file|en_visual_studio_14_professional_ctp_version_14.0.21730.01.dp_x86_dvd_4337786.iso|4261685248|2CB4043815793AD2F9DFFAAFCBF013CD|/
 .NET Framework 4.5 Beta Redistributable (x86 and x64) - (English)
 ed2k://|file|en_.net_framework_4.5_beta_redistributable_x86_x64_808031.exe|52070032|7E24A1CBBA9C9FDE77316A1C3BB0FF3F|/
 Visual Studio 11 Ultimate Beta  (x86) - DVD (English)
@@ -884,6 +919,9 @@ Agents for Visual Studio 2012 Update 3 Language Pack (x86) - Test Controller (Ch
 ed2k://|file|cn_agents_for_visual_studio_2012_update_3_language_pack_x86_test_controller_2339080.exe|14456304|348A7C704C3BB15A5D82C2ED1B72784A|/
 Visual Studio Team Foundation Server Express 2012 with Update 3 (x86 and x64) - DVD (Chinese-Simplified)
 ed2k://|file|cn_visual_studio_team_foundation_server_express_2012_with_update_3_x86_x64_dvd_2339274.iso|546205696|5B994B43F8FF78D220D8E16CCFD8977B|/
+Visual Studio 2012 Update 4 (x86) - DVD (Multiple Languages)
+
+ed2k://|file|mu_visual_studio_2012_update_4_x86_dvd_3161759.iso|2509815808|B94434AE9E3B26AE9F9D56F52DA43B92|/
 Visual Studio Express 2013 for Web (x86) - DVD (English)
 ed2k://|file|en_visual_studio_express_2013_for_web_x86_dvd_3009395.iso|632700928|166AD0A50E1E342FD3F76ECC41D2690C|/
 Visual Studio Express 2013 for Windows Desktop (x86) - DVD (English)
@@ -913,7 +951,7 @@ ed2k://|file|cn_visual_studio_team_foundation_server_express_2013_x86_x64_dvd_30
 Visual Studio Test Professional 2013 (x86) - DVD (Chinese-Simplified)
 ed2k://|file|cn_visual_studio_test_professional_2013_x86_dvd_3007687.iso|192960512|0B43479D06662728D44F17AD6DF1FF6E|/
 Visual Studio Ultimate 2013 (x86) - DVD (Chinese-Simplified)
-ed2k://|file|cn_visual_studio_ultimate_2013_x86_dvd_3009109.iso|3077509120|14B49871392C76A6D640910A639CB8C2|/
+ed2k://|file|cn_visual_studio_ultimate_2013_x86_dvd_3175316.iso|3077509120|ADDA34B2BC29E1571276AE50A220EB91|/
 Visual Studio Express 2013 Preview for Web (x86) - DVD (English)
 ed2k://|file|en_visual_studio_express_2013_preview_for_web_x86_dvd_2360484.iso|814614528|27F6C4469A235D8031C280C54A27DC74|/
 Visual Studio Express 2013 Preview for Windows (x86) - DVD (English)
@@ -942,6 +980,15 @@ Visual Studio Ultimate 2013 Preview (x86) - DVD (Chinese-Simplified)
 ed2k://|file|cn_visual_studio_ultimate_2013_preview_x86_dvd_2360566.iso|3200098304|4081161F187A4905EB1930DAE815A504|/
 Visual Studio Ultimate 2013 RC (x86) - DVD (Chinese-Simplified)
 ed2k://|file|cn_visual_studio_ultimate_2013_rc_x86_dvd_2760148.iso|3204331520|26B90733A1855B048DE7FB7D765C486D|/
+Visual Studio 2013 Update 1 (x86) - DVD (Multiple Languages)
+
+ed2k://|file|mu_visual_studio_2013_update_1_x86_dvd_3941051.iso|257343488|C74670304D2B088ABAA599CC6893B2DA|/
+Visual Studio 2013 Update 2 (x86) - DVD (Multiple Languages)
+ed2k://|file|mu_visual_studio_2013_update_2_x86_dvd_4238353.iso|3764328448|66362AFA807FDE3816FB5706A34B4434|/
+Visual Studio Team Foundation Server Express 2013 with Update 2 (x86 and x64) - DVD (Chinese-Simplified)
+ed2k://|file|cn_visual_studio_team_foundation_server_express_2013_with_update_2_x86_x64_dvd_4080386.iso|588326912|D7A01895ED1559A7E7745812E8CE6219|/
+Visual Studio Ultimate 2013 with Update 2 (x86) - DVD (Chinese-Simplified)
+ed2k://|file|cn_visual_studio_ultimate_2013_with_update_2_x86_dvd_4238238.iso|6213523456|BD070868A0A9662C9B592F73E95619EB|/
 Visual Studio LightSwitch 2011 (x86) - DVD (English)
 ed2k://|file|en_visual_studio_lightswitch_2011_x86_dvd_681201.iso|605245440|117A96EF9A376F0B91BF7F984A937789|/
 Visual Studio LightSwitch 2011 Web Installer (x86) - (English)
@@ -1571,6 +1618,53 @@ Windows 8.1 Preview (x64) - DVD (Chinese-Taiwan)
 ed2k://|file|tw_windows_8.1_preview_x64_dvd_2358802.iso|3898601472|0052559F8B181A8A0B24715009CCB97E|/
 Windows 8.1 Preview (x86) - DVD (Chinese-Taiwan)
 ed2k://|file|tw_windows_8.1_preview_x86_dvd_2358776.iso|2910945280|5575F1626C6F9989D413EC5F55772914|/
+Windows 8.1 and Windows Embedded 8.1 Industry Update (x86) - (Multiple Languages)
+
+ed2k://|file|mu_windows_8.1_windows_embedded_8.1industry_update_x86_4046911.zip|377758442|E000C0CF24CF89E15A5DC9210F2705C7|/
+Windows 8.1 RT Update (ARM) - (Multiple Languages)
+
+ed2k://|file|mu_windows_8.1_rt_update_arm_4046909.zip|329431615|32B5D21573BA19A4563C4BE9ED023BA6|/
+Windows 8.1, Windows Server 2012 R2, Windows Embedded 8.1 Industry Update (x64) - (Multiple Languages)
+
+ed2k://|file|mu_windows_8.1_windows_server_2012r2_windows_embedded_8.1industry_update_x64_4046913.zip|807854846|A1B50E1C33241FC8840EEB36FCDC96A6|/
+Windows 8.1 Enterprise with Update (x64) - DVD (English)
+
+ed2k://|file|en_windows_8.1_enterprise_with_update_x64_dvd_4065178.iso|3955961856|053DDD7B1D05F31D695EF102688F44B1|/
+Windows 8.1 Enterprise with Update (x86) - DVD (English)
+
+ed2k://|file|en_windows_8.1_enterprise_with_update_x86_dvd_4065185.iso|2946463744|75AEE50CB3E3513762BBFE971894CFD9|/
+Windows 8.1 Professional VL with Update (x64) - DVD (English)
+
+ed2k://|file|en_windows_8.1_professional_vl_with_update_x64_dvd_4065194.iso|3958071296|4C411A0A71D9F82FD1949552137D9E3C|/
+Windows 8.1 Professional VL with Update (x86) - DVD (English)
+
+ed2k://|file|en_windows_8.1_professional_vl_with_update_x86_dvd_4065201.iso|2947921920|CDE8DF1B85B6C5D8369D7116DDEFE726|/
+Windows 8.1 with Update (multiple editions) (x64) - DVD (English)
+
+ed2k://|file|en_windows_8.1_with_update_x64_dvd_4065090.iso|4115013632|8ED6272AAE321628AF6A16AA12CE63C8|/
+Windows 8.1 with Update (multiple editions) (x86) - DVD (English)
+
+ed2k://|file|en_windows_8.1_with_update_x86_dvd_4065105.iso|3076220928|A5BF500F7739E8052E75D2365119DC11|/
+Windows 8.1 Enterprise with Update (x64) - DVD (Chinese-Simplified)
+ed2k://|file|cn_windows_8.1_enterprise_with_update_x64_dvd_4048578.iso|4140781568|8A3E13590D8A6EDF259574CB797FC75E|/
+Windows 8.1 Enterprise with Update (x86) - DVD (Chinese-Simplified)
+ed2k://|file|cn_windows_8.1_enterprise_with_update_x86_dvd_4050277.iso|3089944576|EEA035116570CFB1F6B6318559ED4A05|/
+Windows 8.1 Professional VL with Update (x64) - DVD (Chinese-Simplified)
+ed2k://|file|cn_windows_8.1_professional_vl_with_update_x64_dvd_4050293.iso|4136626176|4D2363F9E06BFD50A78B1E6464702959|/
+Windows 8.1 Professional VL with Update (x86) - DVD (Chinese-Simplified)
+ed2k://|file|cn_windows_8.1_professional_vl_with_update_x86_dvd_4048630.iso|3086659584|41CAAB5DAC5643F6E0048576D609C19A|/
+Windows 8.1 with Update (multiple editions) (x64) - DVD (Chinese-Simplified)
+ed2k://|file|cn_windows_8.1_with_update_x64_dvd_4048046.iso|4298139648|541A9F2BAF8CD7AA0DBCEACD378320B5|/
+Windows 8.1 with Update (multiple editions) (x86) - DVD (Chinese-Simplified)
+ed2k://|file|cn_windows_8.1_with_update_x86_dvd_4048000.iso|3215685632|C5F005E4F2D52AEB6CB9E0037454E03E|/
+Windows 8.1 Enterprise with Update (x64) - DVD (Chinese-Taiwan)
+ed2k://|file|tw_windows_8.1_enterprise_with_update_x64_dvd_4048586.iso|4111581184|2DCCF332AE27C2F75529E278471A8497|/
+Windows 8.1 Enterprise with Update (x86) - DVD (Chinese-Taiwan)
+ed2k://|file|tw_windows_8.1_enterprise_with_update_x86_dvd_4050302.iso|3076032512|B0B1FAFBB5EA8DCAAA2D30F77F72AAC2|/
+Windows 8.1 Professional VL with Update (x64) - DVD (Chinese-Taiwan)
+ed2k://|file|tw_windows_8.1_professional_vl_with_update_x64_dvd_4050316.iso|4108118016|C316B07DA421F51A131DA7F8D82FC241|/
+Windows 8.1 Professional VL with Update (x86) - DVD (Chinese-Taiwan)
+ed2k://|file|tw_windows_8.1_professional_vl_with_update_x86_dvd_4048641.iso|3076507648|CB2D02AD42B91FBC58AD55ABFEC68157|/
 Windows 98 Second Edition (English)
 ed2k://|file|en_win98_se.iso|652738560|9FAE6A31402499EEE72CB9CED4C7ABA5|/
 Windows 98 Second Edition (Simplified Chinese)
@@ -2007,6 +2101,16 @@ Microsoft Hyper-V Server 2012 R2 Preview (x64) - DVD (Chinese-Simplified)
 ed2k://|file|cn_microsoft_hyper-v_server_2012_r2_preview_x64_dvd_2358554.iso|1988114432|13480353EB9F6656F159AD9668515097|/
 Windows Server 2012 R2 Datacenter Preview (x64) - DVD (Chinese-Simplified)
 ed2k://|file|cn_windows_server_2012_r2_datacenter_preview_x64_dvd_2358525.iso|4239566848|F2E4A8A6DDC8F225F04333F7E0F6110D|/
+Windows Server 2012 R2 VL with Update (x64) - DVD (English)
+
+ed2k://|file|en_windows_server_2012_r2_vl_with_update_x64_dvd_4065221.iso|4548247552|CAB7FBCD275AF5F62E89C02EF898893D|/
+Windows Server 2012 R2 with Update (x64) - DVD (English)
+
+ed2k://|file|en_windows_server_2012_r2_with_update_x64_dvd_4065220.iso|4543252480|0743F9668D8D0C2CE83F381555A86C13|/
+Windows Server 2012 R2 VL with Update (x64) - DVD (Chinese-Simplified)
+ed2k://|file|cn_windows_server_2012_r2_vl_with_update_x64_dvd_4051059.iso|4683122688|BD0B95997679F83A4EE2D062865D8E64|/
+Windows Server 2012 R2 with Update (x64) - DVD (Chinese-Simplified)
+ed2k://|file|cn_windows_server_2012_r2_with_update_x64_dvd_4048415.iso|4684855296|338AA51AF8EF1B9895F17B5FE7636DE6|/
 Windows Server "8" Beta (x64) - DVD (Chinese-Simplified)
 ed2k://|file|cn_windows_server_8_beta_x64_dvd_811341.iso|3727964160|108E6447E01A6F1EFA4B0EB9493F0A0E|/
 Windows Server Developer Preview (x64) - DVD (English)
@@ -2806,6 +2910,32 @@ SQL Server 2012 Standard Edition (x86 and x64) - DVD (Chinese-Simplified)
 ed2k://|file|cn_sql_server_2012_standard_edition_x86_x64_dvd_813404.iso|5054384128|4BA89C95A1A99FE3B6D0D152947FFC7E|/
 SQL Server 2012 Web Edition (x86 and x64) - DVD (Chinese-Simplified)
 ed2k://|file|cn_sql_server_2012_web_edition_x86_x64_dvd_813515.iso|5054384128|54CD216C2203F05D071AD57BCE425E11|/
+SQL Server 2014 Enterprise Edition (x64) - DVD (Chinese-Simplified)
+ed2k://|file|cn_sql_server_2014_enterprise_edition_x64_dvd_3932882.iso|2898847744|A33CE10CD989083D1AD882DF0D56CFBE|/
+SQL Server 2014 Enterprise Edition (x86) - DVD (Chinese-Simplified)
+ed2k://|file|cn_sql_server_2014_enterprise_edition_x86_dvd_3932303.iso|2420928512|8943AF1FDFD5B9C0566A0BF818F666DA|/
+SQL Server 2014 Express (x64) - (Chinese-Simplified)
+ed2k://|file|cn_sql_server_2014_express_x64_exe_3949524.exe|225976624|5546768EC240AD38412A92A780CDD744|/
+SQL Server 2014 Express (x86 and x64) - (Chinese-Simplified)
+ed2k://|file|cn_sql_server_2014_express_x86_and_x64_exe_3949524.exe|192010888|EA0E465FDA87E10B3450656A7103C832|/
+SQL Server 2014 Express (x86) - (Chinese-Simplified)
+ed2k://|file|cn_sql_server_2014_express_x86_exe_3949524.exe|172372552|593C681CA25DE3C5644E217885E31850|/
+SQL Server 2014 Express with Advanced Services (x64) - (Chinese-Simplified)
+ed2k://|file|cn_sql_server_2014_express_with_advanced_services_x64_exe_3949524.exe|1265331856|507F2CE5F577BD6AD6E0ED140F28CF41|/
+SQL Server 2014 Express with Advanced Services (x86) - (Chinese-Simplified)
+ed2k://|file|cn_sql_server_2014_express_with_advanced_services_x86_exe_3949524.exe|1236629560|C9B16371AEE0DDEEDD0046F2521549B1|/
+SQL Server 2014 Express with Tools (x64) - (Chinese-Simplified)
+ed2k://|file|cn_sql_server_2014_express_with_tools_x64_exe_3949524.exe|934484712|62CF7F550BC805A863EAF6F91771D3EA|/
+SQL Server 2014 Express with Tools (x86) - (Chinese-Simplified)
+ed2k://|file|cn_sql_server_2014_express_with_tools_x86_exe_3949524.exe|937981352|2A678C38C400EACD492074E135E2605E|/
+SQL Server 2014 LocaldB (x64) - (Chinese-Simplified)
+ed2k://|file|cn_sql_server_2014_localdb_x64_msi_3949524.msi|45223936|7023192039AD10BCB6E8672B3FF975F8|/
+SQL Server 2014 LocaldB (x86) - (Chinese-Simplified)
+ed2k://|file|cn_sql_server_2014_localdb_x86_msi_3949524.msi|38494208|92C85E31B2915BCE0848CE1FE061EF46|/
+SQL Server 2014 Management Studio (x64) - (Chinese-Simplified)
+ed2k://|file|cn_sql_server_2014_management_studio_x64_exe_3949524.exe|766750160|DDA1AD0C162C0476FA5F8ACF4703860E|/
+SQL Server 2014 Management Studio (x86) - (Chinese-Simplified)
+ed2k://|file|cn_sql_server_2014_management_studio_x86_exe_3949524.exe|754351368|06EF7D750AC4293A0B341104F7CB0B5D|/
 SQL Server 2014 CTP1 (x64) - DVD (English)
 ed2k://|file|en_sql_server_2014_ctp1_x64_dvd_2361912.iso|3527368704|778C550337A31386FF42C5F71F4D5555|/
 SQL Server 6.5 (English)
@@ -2834,6 +2964,9 @@ ed2k://|file|mu_system_center_2012_r2_service_manager_x86_and_x64_dvd_2916923.is
 System Center 2012 R2 Virtual Machine Manager (x86 and x64) - DVD (Multiple Languages)
 
 ed2k://|file|mu_system_center_2012_r2_virtual_machine_manager_x86_and_x64_dvd_2913737.iso|1333972992|F096CAD9DF3930F9DD5D397A717E409C|/
+System Center 2012 R2 Operations Manager (x86 and x64) - DVD (Chinese-Simplified)
+
+ed2k://|file|cn_system_center_2012_r2_operations_manager_x86_and_x64_dvd_2920213.iso|734644224|D20CC57F1FF8A116CA5E69D340BC720C|/
 System Center 2012 - App Controller with Service Pack 1 (x64) - DVD (Chinese-Simplified, English, French, German, Italian, Japanese, Portuguese-Brazil, Russian, and Spanish)
 ed2k://|file|mu_system_center_2012_app_controller_with_sp1_x64_dvd_1345042.iso|80732160|2C05A112D98E3FC4AEFA930D86CE1E77|/
 System Center 2012 - Data Protection Manager (x64) - DVD (English, Chinese - Simplified, French, German, Italian, Japanese, Portuguese-Brazil, Russian, Spanish)
